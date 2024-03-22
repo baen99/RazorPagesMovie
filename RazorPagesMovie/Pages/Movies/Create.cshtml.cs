@@ -32,6 +32,7 @@ namespace RazorPagesMovie.Pages.Movies
         {
             if (!ModelState.IsValid)
             {
+                // If there are any model errors, the form/Page is redisplayed
                 return Page();
             }
 

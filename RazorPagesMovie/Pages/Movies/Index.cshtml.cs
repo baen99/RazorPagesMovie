@@ -12,8 +12,11 @@ namespace RazorPagesMovie.Pages.Movies
 {
     public class IndexModel : PageModel
     {
+        /* Dependency: the class IndexModel has the attribute/property _context
+           which is instance of another class (RazorPagesMovieContext) */
         private readonly RazorPagesMovie.Data.RazorPagesMovieContext _context;
 
+        // Dependency Injection: Constructor assigns instance of corresponding class to dependng class 
         public IndexModel(RazorPagesMovie.Data.RazorPagesMovieContext context)
         {
             _context = context;
