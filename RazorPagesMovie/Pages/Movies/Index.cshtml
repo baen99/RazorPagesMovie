@@ -5,7 +5,9 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>
+    <a href="https://letterboxd.com/baen/">Baen's Letterboxd Profile</a>
+</h1>
 
 <p>
     <a asp-page="Create">Create New</a>
@@ -23,7 +25,7 @@
                 @Html.DisplayNameFor(model => model.Movie[0].Genre)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Movie[0].Price)
+                @Html.DisplayNameFor(model => model.Movie[0].Director)
             </th>
             <th></th>
         </tr>
@@ -41,7 +43,7 @@
                 @Html.DisplayFor(modelItem => item.Genre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Price)
+                @Html.DisplayFor(modelItem => item.Director)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
