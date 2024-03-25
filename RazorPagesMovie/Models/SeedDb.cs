@@ -29,7 +29,8 @@ public static class SeedDb
                     Title = "Dune Part Two",
                     ReleaseDate = DateTime.Parse("17.03.2024"),
                     Genre = "Sci-Fi",
-                    Director = "Denis Villeneuve"
+                    Director = "Denis Villeneuve",
+                    Rating = "9/10"
                 },
 
                 new Movie
@@ -37,7 +38,8 @@ public static class SeedDb
                     Title = "Napoleon",
                     ReleaseDate = DateTime.Parse("15.02.2024"),
                     Genre = "History",
-                    Director = "Ridley Scott"
+                    Director = "Ridley Scott",
+                    Rating = "8/10"
                 },
 
                 new Movie
@@ -45,7 +47,8 @@ public static class SeedDb
                     Title = "Oppenheimer",
                     ReleaseDate = DateTime.Parse("31.07.2023"),
                     Genre = "Drama",
-                    Director = "Christopher Nolan"
+                    Director = "Christopher Nolan",
+                    Rating = "8/10"
                 },
 
                 new Movie
@@ -53,7 +56,8 @@ public static class SeedDb
                     Title = "Jurassic Park",
                     ReleaseDate = DateTime.Parse("08.11.1999"),
                     Genre = "Action",
-                    Director = "Steven Spielberg"
+                    Director = "Steven Spielberg",
+                    Rating = "10/10"
                 },
 
                 new Movie
@@ -61,7 +65,8 @@ public static class SeedDb
                     Title = "Across the Spiderverse",
                     ReleaseDate = DateTime.Parse("1.1.2023"),
                     Genre = "Animation",
-                    Director = null
+                    Director = null,
+                    Rating = "9/10"
                 },
 
 
@@ -70,7 +75,8 @@ public static class SeedDb
                     Title = "When Harry Met Sally",
                     ReleaseDate = DateTime.Parse("1989-2-12"),
                     Genre = "Romantic Comedy",
-                    Director = "Rob Reiner"
+                    Director = "Rob Reiner",
+                    Rating = "7/10"
                 },
 
                 new Movie
@@ -79,6 +85,7 @@ public static class SeedDb
                     ReleaseDate = DateTime.Parse("1984-3-13"),
                     Genre = "Comedy",
                     Director = ""
+                    //Rating = "7/10"
                 },
 
 
@@ -87,6 +94,7 @@ public static class SeedDb
                     Title = "Rio Bravo",
                     ReleaseDate = DateTime.Parse("1959-4-15"),
                     Genre = "Western",
+                    Rating = "6/10"
                     
                 }
             );
