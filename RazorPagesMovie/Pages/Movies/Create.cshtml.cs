@@ -33,6 +33,9 @@ namespace RazorPagesMovie.Pages.Movies
             if (!ModelState.IsValid)
             {
                 // If there are any model errors, the form/Page is redisplayed
+
+                // validation errors only are passed to the server when 
+                // JavaScript is disabled in the Browser
                 return Page();
             }
 
